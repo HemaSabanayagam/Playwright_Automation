@@ -1,0 +1,14 @@
+[{
+    "username":"standard_user",
+    "password":"secret_sauce",
+    "invalidUsername":"Invalid_user",
+    "invalidPassword":"Invalid_password",
+    "firstname":"Sri",
+    "lastname":"Leka",
+    "zipcode":"654321",
+    "Invalid_firstname":"Sri",
+    "Invalid_lastname":"Leka",
+    "Invalid_zipcode":"",
+    "productName":"Sauce Labs Bolt T-Shirt",
+    "remove_productName":"Sauce Labs Bolt T-Shirt"
+}]

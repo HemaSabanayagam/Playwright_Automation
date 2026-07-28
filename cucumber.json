@@ -1,0 +1,9 @@
+{
+  "default": {
+    "require": [
+      "features/hooks/hooks.ts",
+      "features/**/*Steps.ts"
+    ],
+    "requireModule": ["ts-node/register"]
+  }
+}
