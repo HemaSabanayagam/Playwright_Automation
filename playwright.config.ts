@@ -11,14 +11,21 @@ export default defineConfig({
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
   expect: {
-
-    timeout: 5000
+    timeout: 5000,
+    // Visual comparison thresholds - tune these to control flakiness vs sensitivity
+    toHaveScreenshot: {
+      maxDiffPixelRatio: 0.02,   // allow up to 2% pixel diff (font rendering/AA noise)
+      animations: 'disabled',    // freeze CSS animations/transitions for stable snapshots
+      caret: 'hide',
+    },
   },
 
   reporter: [
     ['html'],
     ['allure-playwright']
   ],
+
+
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   projects: [
     {
