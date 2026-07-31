@@ -1,6 +1,6 @@
 # Playwright Automation Framework
 
-This project is built using **Playwright**, **TypeScript**, and **Cucumber (BDD)** to automate both UI and API testing.
+This project is built using **Playwright**, **TypeScript**, and **Cucumber (BDD)** to automate both **UI and API testing**.
 
 For UI automation, I used the **SauceDemo** application to automate the complete purchase flow, along with positive and negative scenarios. For API automation, I used the **Restful Booker API** to practice CRUD operations. The framework follows the **Page Object Model (POM)** to keep the code easy to maintain and reuse, and also includes **data-driven testing, visual (snapshot) testing, cross-browser execution, parallel execution, reporting, and Azure DevOps CI/CD**.
 
