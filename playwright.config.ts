@@ -33,7 +33,7 @@ export default defineConfig({
       use: {
 
         browserName: 'chromium',
-        headless: false,
+        headless: true,
         screenshot: 'only-on-failure',
         trace: 'retain-on-failure',
         video: 'on-first-retry',
@@ -43,7 +43,7 @@ export default defineConfig({
     //   name: 'safari',
     //   use: {
     //     browserName: 'webkit',
-    //     headless: false,
+    //     headless: !!process.env.CI,
     //     screenshot: 'on',
     //     trace: 'on',
     //     video: 'on',
