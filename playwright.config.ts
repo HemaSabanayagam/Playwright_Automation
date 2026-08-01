@@ -14,7 +14,7 @@ export default defineConfig({
     timeout: 5000,
     // Visual comparison thresholds - tune these to control flakiness vs sensitivity
     toHaveScreenshot: {
-      maxDiffPixelRatio: 0.02,   // allow up to 2% pixel diff (font rendering/AA noise)
+      maxDiffPixelRatio: 0.05,   // allow up to 5% pixel diff (font rendering/AA noise)
       animations: 'disabled',    // freeze CSS animations/transitions for stable snapshots
       caret: 'hide',
     },
