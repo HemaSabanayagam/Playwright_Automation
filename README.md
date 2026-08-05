@@ -1,4 +1,4 @@
-# Playwright Automation Framework
+# E-commerce Test Automation Framework
 
 This project is built using **Playwright**, **TypeScript**, and **Cucumber (BDD)** to automate both **UI and API testing**.
 
